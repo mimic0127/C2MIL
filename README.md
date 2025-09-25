@@ -1,7 +1,7 @@
 
 # C$^2$MIL: Dual-Causal Graph-Based MIL for Survival Analysis
 
-[![Paper](https://img.shields.io/badge/Paper-ICCV%202025-blue)](https://arxiv.org/abs/xxx)  [![Code](https://img.shields.io/badge/Code-GitHub-black)](https://github.com/mimic0127/C2MIL)  [![License](https://img.shields.io/badge/License-MIT-green)](#license)
+[![Paper](https://img.shields.io/badge/Paper-ICCV%202025-blue)](http://arxiv.org/abs/2509.20152)]  [![Code](https://img.shields.io/badge/Code-GitHub-black)](https://github.com/mimic0127/C2MIL)  [![License](https://img.shields.io/badge/License-MIT-green)](#license)
 
 Official PyTorch implementation of $C^2$MIL, a **dual-causal graph-based multiple instance learning (MIL) model** designed for **robust and interpretable survival analysis** on whole slide images (WSIs).
 
@@ -76,7 +76,7 @@ Dependencies:
 
 ### 1. Feature Extraction
 
-Extract patch and thumbnail features using a pretrained backbone (e.g., UNI, ViT, ctranspath).
+Extract patch and thumbnail features using a pretrained backbone (e.g., UNI, ViT, ctranspath) in preprocession
 
 ### 2. Graph Construction
 
@@ -85,13 +85,13 @@ Construct patch-level graphs with KNN using patch coordinates.
 ### 3. Training
 
 ```bash
-
+python train.py
 ```
 
 ### 4. Evaluation
 
 ```bash
-
+python test_prediction.py
 ```
 
 ---
@@ -103,7 +103,7 @@ Construct patch-level graphs with KNN using patch coordinates.
 
 ## 📜 Citation
 
-If you find this repository useful, please cite our paper:
+If you find this repository useful, please star ⭐️ and cite our paper:
 
 ```bibtex
 
@@ -116,5 +116,6 @@ If you find this repository useful, please cite our paper:
 ## 📝 License
 
 This project is licensed under the MIT License.
+
 
 
