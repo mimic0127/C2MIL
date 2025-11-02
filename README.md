@@ -3,6 +3,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-ICCV%202025-blue)](http://arxiv.org/abs/2509.20152)  [![Code](https://img.shields.io/badge/Code-GitHub-black)](https://github.com/mimic0127/C2MIL)  [![License](https://img.shields.io/badge/License-MIT-green)](#license)
 
+---
 Official PyTorch implementation of $C^2$MIL, a **dual-causal graph-based multiple instance learning (MIL) model** designed for **robust and interpretable survival analysis** on whole slide images (WSIs).
 Minor revisions have been made in the [arXiv version of the $C^2$MIL](https://arxiv.org/abs/2509.20152) to make the work more rigorous. The details can be verified from the arXiv version and the GitHub code.
 ---
@@ -145,6 +146,7 @@ If you find this repository useful, please ⭐️ **star** it and cite our paper
 ## 📝 License
 
 This project is licensed under the MIT License.
+
 
 
 
