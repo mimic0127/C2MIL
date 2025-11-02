@@ -4,7 +4,7 @@
 [![Paper](https://img.shields.io/badge/Paper-ICCV%202025-blue)](http://arxiv.org/abs/2509.20152)  [![Code](https://img.shields.io/badge/Code-GitHub-black)](https://github.com/mimic0127/C2MIL)  [![License](https://img.shields.io/badge/License-MIT-green)](#license)
 
 Official PyTorch implementation of $C^2$MIL, a **dual-causal graph-based multiple instance learning (MIL) model** designed for **robust and interpretable survival analysis** on whole slide images (WSIs).
-
+Minor revisions have been made in the [arXiv version of the $C^2$MIL](https://arxiv.org/abs/2509.20152) to make the work more rigorous. The details can be verified from the arXiv version and the GitHub code.
 ---
 
 ## 🔍 Overview
@@ -127,11 +127,16 @@ python test_prediction.py
 
 ## 📜 Citation
 
-If you find this repository useful, please star ⭐️ and cite our paper:
+If you find this repository useful, please ⭐️ **star** it and cite our paper:
 
 ```bibtex
-
-```
+@inproceedings{cen2025c2mil,
+  title={C2MIL: Synchronizing Semantic and Topological Causalities in Multiple Instance Learning for Robust and Interpretable Survival Analysis},
+  author={Cen, Min and Zhuang, Zhenfeng and Zhang, Yuzhe and Zeng, Min and Magnier, Baptiste and Yu, Lequan and Zhang, Hong and Wang, Liansheng},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages={24392--24401},
+  year={2025}
+}
 
 ---
 
@@ -140,6 +145,7 @@ If you find this repository useful, please star ⭐️ and cite our paper:
 ## 📝 License
 
 This project is licensed under the MIT License.
+
 
 
 
