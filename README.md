@@ -3,10 +3,8 @@
 
 [![Paper](https://img.shields.io/badge/Paper-ICCV%202025-blue)](http://arxiv.org/abs/2509.20152)  [![Code](https://img.shields.io/badge/Code-GitHub-black)](https://github.com/mimic0127/C2MIL)  [![License](https://img.shields.io/badge/License-MIT-green)](#license)
 
----
 Official PyTorch implementation of $C^2$MIL, a **dual-causal graph-based multiple instance learning (MIL) model** designed for **robust and interpretable survival analysis** on whole slide images (WSIs).
 Minor revisions have been made in the [arXiv version of the $C^2$MIL](https://arxiv.org/abs/2509.20152) to make the work more rigorous. The details can be verified from the arXiv version and the GitHub code.
----
 
 ## 🔍 Overview
 
@@ -24,7 +22,6 @@ To tackle these, we propose **C2MIL**, which synchronizes **semantic and topolog
   <img src="./assets/c2mil_pipeline.png" width="1000">
 </p>
 
----
 
 ## ✨ Key Features
 
@@ -40,7 +37,6 @@ To tackle these, we propose **C2MIL**, which synchronizes **semantic and topolog
 - **Generalizable & Interpretable:**  
   Achieves **state-of-the-art survival prediction** while providing interpretable attention heatmaps and adaptive clustering.
 
----
 
 ## 📊 Performance
 
@@ -57,7 +53,6 @@ C2MIL achieves **state-of-the-art C-index** across three TCGA cohorts, with sign
 | IBMIL        | ✗     | ✓      | 0.697     | 0.589     | 0.553     | 0.616      | 0.571      | 0.654      |
 | **C2MIL (Ours)** | ✓ | ✓      | **0.708** | **0.690** | **0.608** | **0.628**  | **0.650**  | **0.702**  |
 
----
 
 ## ⚙️ Installation
 
@@ -71,7 +66,6 @@ pip install -r requirements.txt
 
 Dependencies:
 
----
 
 ## 🚀 Usage
 
@@ -124,7 +118,6 @@ python test_prediction.py
 ## 📂 Repository Structure
 
 
----
 
 ## 📜 Citation
 
@@ -138,14 +131,12 @@ If you find this repository useful, please ⭐️ **star** it and cite our paper
   pages={24392--24401},
   year={2025}
 }
-
----
-
-
+```
 
 ## 📝 License
 
 This project is licensed under the MIT License.
+
 
 
 
